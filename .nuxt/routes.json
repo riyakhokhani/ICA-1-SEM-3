@@ -1,0 +1,23 @@
+[
+  {
+    "name": "inspire",
+    "path": "/inspire",
+    "component": "/Users/riyakhokhani14/Documents/GitHub/ICA-1-SEM-3/pages/inspire.vue",
+    "chunkName": "pages/inspire",
+    "_name": "_7f2464a2"
+  },
+  {
+    "name": "tracking",
+    "path": "/tracking",
+    "component": "/Users/riyakhokhani14/Documents/GitHub/ICA-1-SEM-3/pages/tracking.vue",
+    "chunkName": "pages/tracking",
+    "_name": "_5f01e79f"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/riyakhokhani14/Documents/GitHub/ICA-1-SEM-3/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_8b0eaacc"
+  }
+]
