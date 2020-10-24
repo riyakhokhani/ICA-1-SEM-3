@@ -27,7 +27,11 @@
     </v-row>
     <br>
     <br>
-    <img src="status_bar.png" width='850' class="center">
+    <v-row>
+      <v-col md="8" sm="8" cols="6"
+     <img src="status_bar.png" width='850' class="center">
+      </v-col>
+      </v-row>
     <br>
     <br>
     <br>
