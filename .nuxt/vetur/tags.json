@@ -10,5 +10,11 @@
   },
   "LazyShopclueslogo": {
     "description": "Auto imported from components/shopclueslogo.vue"
+  },
+  "Tracking": {
+    "description": "Auto imported from components/tracking.vue"
+  },
+  "LazyTracking": {
+    "description": "Auto imported from components/tracking.vue"
   }
 }

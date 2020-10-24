@@ -12,13 +12,11 @@
 
     <!-- Body -->
     <v-content light>
-      <nuxt /> 
+       
+      <tracking/>
     </v-content>
-    
-    <!-- Footer -->
-    <v-footer color="indigo" app>
-      <span class="white--text">&copy; {{ new Date().getFullYear() }}</span>
-    </v-footer>
+  
+   
 
   </v-app>
 </template>
