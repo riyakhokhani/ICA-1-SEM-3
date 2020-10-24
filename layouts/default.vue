@@ -7,12 +7,13 @@
       <v-toolbar-title></v-toolbar-title>
        <!-- Component Example -->
       <arrow/>
+      <!--Logo-->
       <shopclueslogo/>
     </v-app-bar>
 
     <!-- Body -->
     <v-content light>
-       
+       <!--Copy Tracking-->
       <tracking/>
     </v-content>
   

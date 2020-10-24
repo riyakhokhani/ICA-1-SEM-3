@@ -1,6 +1,7 @@
 <template>
 <v-app class="blue lighten-5">
   <v-container>
+    
     <v-card
       elevation="13"
       color="white"
@@ -8,51 +9,53 @@
       class="mx-auto"
       height="700"
       max-width="1000"
-      md='1'
-      sm='1'
-      cols='1'
+      
     >
     <p id="card-title-text">
       SHIPMENT and TRACKING
     </p>
     <v-progress-linear value="100" color="grey"></v-progress-linear>
     <v-row>
-      <v-col>
+      <v-col md="8" sm="8" cols="1">
+        <!--Display order status -->
         <p><div id="order-status-text">Out For Delivery</div>
-        <font color='grey' style="margin-left:5mm; font-size:10pt;">Expected Delivery:</font><font color='green' style="font-size:10pt;">Monday, September 8, by 8:00pm</font></p>
+        <font color='grey' style="margin-left:5mm; font-size:10pt;">Expected Delivery:</font><font color='green' style="font-size:10pt;">Monday, September 8, by 8:00pm</font>
       </v-col>
-      <v-col>
+      <v-col md="8" sm="8" cols="6">
         <p><div id="current-status-text">Your package is out for delivery and will arrive today. <font color='grey'>(Updated 0 mins ago)</font></div></p>
       </v-col>
     </v-row>
     <br>
     <br>
+    <!--Current Status-->
     <v-row>
-      <v-col md="8" sm="8" cols="6"
+      <v-col md="8" sm="8" cols="6">
      <img src="status_bar.png" width='850' class="center">
       </v-col>
       </v-row>
     <br>
     <br>
     <br>
+    <!--TRacking DEtails -->
+    <!--scroll css class enables scrolling-->
       <v-card
       elevation="13"
-      color="white scroll"
+      color="white scroll" 
       class="mx-auto"
       height="300"
       max-width="1000"
-      md='1'
-      sm='1'
-      cols='1'>
+      md='8'
+      sm='8'
+      cols='6'>
         <v-card
         elevation="-1"
         color="#DCDCDC"
         class="mx-auto"
         height="50"
         max-width="1000"
-        md='1'
-        sm='1'
-        cols='1'
+        md='8'
+        sm='8'
+        cols='6'
         >
         <p><font id='tracking-details-text'>Tracking Details</font></p>
 
