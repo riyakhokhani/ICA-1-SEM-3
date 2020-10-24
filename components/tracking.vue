@@ -95,13 +95,9 @@
         </v-row>
 
         <v-row>
-          <v-col>
-            <p id="tracking-details-tittle">Monday, September 8, 2:00 PM, Delhi  </p>
-          </v-col>
+          
             
-          <v-col>
-            <p id="tracking-details-timestamp">Order details shared with the courier </p>
-          </v-col>
+          
         </v-row>
         </v-card>
       </v-card>
@@ -114,14 +110,14 @@
 #card-title-text {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
   color: rgb(0, 0, 0);
-  font-size:10pt;
+  font-size:20pt;
   margin-left: 5mm;
   margin-top: 5mm;
 }
 #order-status-text {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
   color: rgb(0, 0, 0);
-  font-size:10pt;
+  font-size:20pt;
   margin-left: 5mm;
 }
 #current-status-text {
@@ -132,8 +128,8 @@
 
 #tracking-details-text {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
-  color: rgb(66, 64, 63);
-  font-size:10pt;
+  color: rgb(0, 0, 0);
+  font-size:20pt;
   margin-left: 15mm;
   margin-top: 5mm;
 }

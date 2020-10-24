@@ -121,7 +121,7 @@
 #order-status-text {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
   color: rgb(0, 0, 0);
-  font-size:10pt;
+  font-size:20pt;
   margin-left: 5mm;
 }
 #current-status-text {
