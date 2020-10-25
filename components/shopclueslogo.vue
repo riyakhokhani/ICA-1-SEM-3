@@ -9,6 +9,6 @@
 <style>
 .shopclueslogo {
   height: 50px;
-  width: 150px;
+  width: 120px;
 }
 </style>

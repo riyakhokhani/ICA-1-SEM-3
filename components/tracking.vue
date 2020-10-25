@@ -12,14 +12,14 @@
       
     >
     <p id="card-title-text">
-      SHIPMENT and TRACKING
+     Shipment and Tracking
     </p>
     <v-progress-linear value="100" color="grey"></v-progress-linear>
     <v-row>
       <v-col md="6" sm="6" cols="6">
         <!--Display order status -->
         <p><div id="order-status-text">Out For Delivery</div>
-        <font color='black' style="margin-left:5mm; font-size:10pt;">Expected Delivery:</font><font color='black' style="font-size:10pt;">Monday, September 8, by 8:00pm</font>
+        <font color='black' style="margin-left:5mm; font-size:10pt;">Expected Delivery:</font><font color='green' style="font-size:10pt;">Monday, September 8, by 8:00pm</font>
       </v-col>
       <v-col md="6" sm="6" cols="6">
         <p><div id="current-status-text">Your package is out for delivery and will arrive today. <font color='grey'>(Updated 0 mins ago)</font></div></p>
@@ -137,7 +137,7 @@
 
 #tracking-details-text {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
-  color: rgb(66,64,63);
+  color: rgb(0,0,0);
   font-size:20pt;
   margin-left: 15mm;
   margin-top: 5mm;

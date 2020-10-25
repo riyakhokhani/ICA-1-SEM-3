@@ -9,6 +9,6 @@
 <style>
 .arrow {
   height: 50px;
-  width: 50px;
+  width: 40px;
 }
 </style>
