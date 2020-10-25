@@ -4,7 +4,6 @@ import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
 const _7f2464a2 = () => interopDefault(import('../pages/inspire.vue' /* webpackChunkName: "pages/inspire" */))
-const _5f01e79f = () => interopDefault(import('../pages/tracking.vue' /* webpackChunkName: "pages/tracking" */))
 const _8b0eaacc = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 // TODO: remove in Nuxt 3
@@ -27,10 +26,6 @@ export const routerOptions = {
     path: "/inspire",
     component: _7f2464a2,
     name: "inspire"
-  }, {
-    path: "/tracking",
-    component: _5f01e79f,
-    name: "tracking"
   }, {
     path: "/",
     component: _8b0eaacc,
