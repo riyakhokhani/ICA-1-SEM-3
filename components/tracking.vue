@@ -16,12 +16,12 @@
     </p>
     <v-progress-linear value="100" color="grey"></v-progress-linear>
     <v-row>
-      <v-col md="6" sm="8" cols="1">
+      <v-col md="6" sm="6" cols="6">
         <!--Display order status -->
         <p><div id="order-status-text">Out For Delivery</div>
         <font color='black' style="margin-left:5mm; font-size:10pt;">Expected Delivery:</font><font color='black' style="font-size:10pt;">Monday, September 8, by 8:00pm</font>
       </v-col>
-      <v-col md="6" sm="8" cols="2">
+      <v-col md="6" sm="6" cols="6">
         <p><div id="current-status-text">Your package is out for delivery and will arrive today. <font color='grey'>(Updated 0 mins ago)</font></div></p>
       </v-col>
     </v-row>
@@ -29,7 +29,7 @@
     <br>
     <!--Current Status-->
     <v-row>
-      <v-col md="12" sm="8" cols="2">
+      <v-col md="12" sm="8" cols="12">
      <img src="status_bar.png" width='850' class="center">
       </v-col>
       </v-row>
@@ -45,8 +45,8 @@
       height="300"
       max-width="1000"
       md='8'
-      sm='2'
-      cols='2'>
+      sm='8'
+      cols='6'>
         <v-card
         elevation="-1"
         color="#DCDCDC"
@@ -54,8 +54,8 @@
         height="50"
         max-width="1000"
         md='8'
-        sm='2'
-        cols='2'
+        sm='8'
+        cols='6'
         >
         <p><font id='tracking-details-text'>Tracking Details</font></p>
 
