@@ -118,8 +118,8 @@
 <style scoped>
 #card-title-text {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
-  color: rgb(0, 0, 0);
-  font-size:30pt;
+  color: rgb(66,64,63);
+  font-size:20pt;
   margin-left: 5mm;
   margin-top: 5mm;
 }
@@ -137,7 +137,7 @@
 
 #tracking-details-text {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
-  color: rgb(0, 0, 0);
+  color: rgb(66,64,63);
   font-size:20pt;
   margin-left: 15mm;
   margin-top: 5mm;
