@@ -45,7 +45,7 @@
       height="300"
       max-width="1000"
       md='8'
-      sm='8'
+      sm='2'
       cols='2'>
         <v-card
         elevation="-1"
@@ -54,7 +54,7 @@
         height="50"
         max-width="1000"
         md='8'
-        sm='8'
+        sm='2'
         cols='2'
         >
         <p><font id='tracking-details-text'>Tracking Details</font></p>
