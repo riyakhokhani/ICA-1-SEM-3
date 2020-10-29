@@ -19,7 +19,7 @@
       <v-col md="6" sm="6" cols="6">
         <!--Display order status -->
         <p><div id="order-status-text">Out For Delivery</div>
-        <font color='black' style="margin-left:5mm; font-size:10pt;">Expected Delivery:</font><font color='green' style="font-size:10pt;">Monday, September 8, by 8:00pm</font>
+        <font color='black' style="margin-left:5mm; font-size:10pt;">Expected Delivery:</font><br><font color='green' style="margin-left:5mm;font-size:10pt;">Monday, September 8, by 8:00pm</font>
       </v-col>
       <v-col md="6" sm="6" cols="6">
         <p><div id="current-status-text">Your package is out for delivery and will arrive today. <font color='grey'>(Updated 0 mins ago)</font></div></p>
@@ -39,15 +39,6 @@
     <!--TRacking DEtails -->
     <!--scroll css class enables scrolling-->
       <v-card
-      elevation="13"
-      color="white scroll" 
-      class="mx-auto"
-      height="300"
-      max-width="1000"
-      md='8'
-      sm='8'
-      cols='6'>
-        <v-card
         elevation="-1"
         color="#DCDCDC"
         class="mx-auto"
@@ -58,7 +49,17 @@
         cols='6'
         >
         <p><font id='tracking-details-text'>Tracking Details</font></p>
-
+      <v-card
+      elevation="13"
+      color="white" 
+      class="mx-auto scroll"
+      height="300"
+      max-width="1000"
+      md='8'
+      sm='8'
+      cols='6'>
+      
+        
         <v-row>
           <v-col>
             <p id="tracking-details-tittle">Monday, September 8, 6:00 PM, Mumbai </p>
@@ -126,7 +127,7 @@
 #order-status-text {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
   color: rgb(0, 0, 0);
-  font-size:20pt;
+  font-size:15pt;
   margin-left: 5mm;
 }
 #current-status-text {
