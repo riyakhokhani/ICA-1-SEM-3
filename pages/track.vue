@@ -12,7 +12,7 @@
       
     >
     <p id="card-title-text">
-     Shipment and Tracking
+     Tracking details
     </p>
     <v-progress-linear value="100" color="grey"></v-progress-linear>
     <v-row>

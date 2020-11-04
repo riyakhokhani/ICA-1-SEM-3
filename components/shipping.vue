@@ -50,7 +50,7 @@
         sm='8'
         cols='6'
         >
-        <p><font id='tracking-details-text'>Shipment & Tracking</font></p>
+        <p><font id='tracking-details-text'>Tracking details</font></p>
       <v-card
       elevation="13"
       color="white" 
