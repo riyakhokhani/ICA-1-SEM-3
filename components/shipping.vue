@@ -129,7 +129,7 @@ courier facility</p>
 #card-title-text {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
   color: rgb(66,64,63);
-  font-size:20pt;
+  font-size:15pt;
   margin-left: 3mm;
   margin-top: 5mm;
 }
