@@ -13,7 +13,8 @@
     >
     <p id="card-title-text">
      Shipment and Tracking
-    </p>
+     <a href="track.vue"><img src="refresh.png" style="width:20px;height:20px;margin-top:10px;margin-right:10px" align="right">
+    </a></p>
     <v-progress-linear value="100" color="grey"></v-progress-linear>
     <v-row>
       <v-col md="6" sm="6" cols="6">
@@ -30,6 +31,7 @@
     <!--Current Status-->
     <v-row>
       <v-col md="12" sm="8" cols="12">
+        
      <img src="status_bar.png" width='850' class="center">
       </v-col>
       </v-row>
@@ -48,7 +50,7 @@
         sm='8'
         cols='6'
         >
-        <p><font id='tracking-details-text'>Tracking Details</font></p>
+        <p><font id='tracking-details-text'>Shipment & Tracking</font></p>
       <v-card
       elevation="13"
       color="white" 
@@ -62,51 +64,57 @@
         
         <v-row>
           <v-col>
-            <p id="tracking-details-tittle">Monday, September 8, 6:00 PM, Mumbai </p>
+            <p id="tracking-details-tittle">Sunday, September 8,
+                           2:00 PM, Delhi </p>
           </v-col>
             
           <v-col>
-            <p id="tracking-details-timestamp">Out for delivery</p>
+            <p id="tracking-details-timestamp">On the way</p>
           </v-col>
         </v-row>
 
         <v-row>
           <v-col>
-            <p id="tracking-details-tittle">Monday, September 8, 4:30 PM, Mumbai </p>
+            <p id="tracking-details-tittle">Sunday, September 8, 
+2:00 PM, Delhi </p>
           </v-col>
             
           <v-col>
-            <p id="tracking-details-timestamp">Out for delivery</p>
+            <p id="tracking-details-timestamp">Order details shared with the courier package received by courier</p>
           </v-col>
         </v-row>
 
         <v-row>
           <v-col>
-            <p id="tracking-details-tittle">Monday, September 8, 3:30 PM, Mumbai </p>
+            <p id="tracking-details-tittle"> Sunday, September 8, 
+2:00 PM, Delhi    </p>
           </v-col>
             
           <v-col>
-            <p id="tracking-details-timestamp">Package arrived at a carrier facility</p>
+            <p id="tracking-details-timestamp"> Package arrived at the courier facility 
+ </p>
           </v-col>
         </v-row>
 
         <v-row>
           <v-col>
-            <p id="tracking-details-tittle">Monday, September 8, 2:35 PM, Delhi </p>
-          </v-col>
+            <p id="tracking-details-tittle"> Saturday, September 7, 
+2:00 PM, Delhi </p></v-col>
             
           <v-col>
-            <p id="tracking-details-timestamp">Package has left seller facility and is in transit to carrier </p>
-          </v-col>
+            <p id="tracking-details-timestamp">Package arrived at the 
+courier facility </p> </v-col>
         </v-row>
 
         <v-row>
           <v-col>
-            <p id="tracking-details-tittle">Monday, September 8, 2:00 PM, Delhi  </p>
+            <p id="tracking-details-tittle">Saturday, September 7, 
+2:00 PM, Delhi   </p>
           </v-col>
             
           <v-col>
-            <p id="tracking-details-timestamp">Order details shared with the courier </p>
+            <p id="tracking-details-timestamp"> Package has left the 
+courier facility</p>
           </v-col>
         </v-row>
         </v-card>
@@ -117,6 +125,7 @@
 </template>
 
 <style scoped>
+
 #card-title-text {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
   color: rgb(66,64,63);
@@ -168,3 +177,4 @@
   width: 100%;
 }
 </style>
+

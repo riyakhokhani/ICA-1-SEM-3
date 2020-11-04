@@ -5,16 +5,16 @@
   "LazyArrow": {
     "description": "Auto imported from components/arrow.vue"
   },
+  "Shipping": {
+    "description": "Auto imported from components/shipping.vue"
+  },
+  "LazyShipping": {
+    "description": "Auto imported from components/shipping.vue"
+  },
   "Shopclueslogo": {
     "description": "Auto imported from components/shopclueslogo.vue"
   },
   "LazyShopclueslogo": {
     "description": "Auto imported from components/shopclueslogo.vue"
-  },
-  "Tracking": {
-    "description": "Auto imported from components/tracking.vue"
-  },
-  "LazyTracking": {
-    "description": "Auto imported from components/tracking.vue"
   }
 }

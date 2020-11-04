@@ -13,8 +13,8 @@
 
     <!-- Body -->
     <v-content light>
-       <!--Copy Tracking-->
-      <tracking/>
+       <!--Copy Shipping-->
+     <shipping/>
     </v-content>
   
    
