@@ -13,7 +13,7 @@
     >
     <p id="card-title-text">
      Shipment and Tracking
-     <a href="track.vue"><img src="refresh.png" style="width:20px;height:20px;margin-top:10px;margin-right:10px" align="right">
+     <a href="track"><img src="refresh.png" style="width:20px;height:20px;margin-top:10px;margin-right:10px" align="right">
     </a></p>
     <v-progress-linear value="100" color="grey"></v-progress-linear>
     <v-row>
