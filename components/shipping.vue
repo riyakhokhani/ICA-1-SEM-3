@@ -130,7 +130,7 @@ courier facility</p>
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
   color: rgb(66,64,63);
   font-size:20pt;
-  margin-left: 5mm;
+  margin-left: 3mm;
   margin-top: 5mm;
 }
 #order-status-text {
@@ -148,8 +148,8 @@ courier facility</p>
 #tracking-details-text {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
   color: rgb(0,0,0);
-  font-size:20pt;
-  margin-left: 15mm;
+  font-size: 15pt;
+  margin-left: 5mm;
   margin-top: 5mm;
 }
 
