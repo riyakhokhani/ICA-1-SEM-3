@@ -1,5 +1,12 @@
 [
   {
+    "name": "arrow button",
+    "path": "/arrow button",
+    "component": "/Users/riyakhokhani14/Documents/GitHub/ICA-1-SEM-3/pages/arrow button.vue",
+    "chunkName": "pages/arrow button",
+    "_name": "_abebf1de"
+  },
+  {
     "name": "inspire",
     "path": "/inspire",
     "component": "/Users/riyakhokhani14/Documents/GitHub/ICA-1-SEM-3/pages/inspire.vue",

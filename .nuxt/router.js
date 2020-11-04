@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
+const _abebf1de = () => interopDefault(import('../pages/arrow button.vue' /* webpackChunkName: "pages/arrow button" */))
 const _7f2464a2 = () => interopDefault(import('../pages/inspire.vue' /* webpackChunkName: "pages/inspire" */))
 const _161a8e93 = () => interopDefault(import('../pages/track.vue' /* webpackChunkName: "pages/track" */))
 const _8b0eaacc = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
@@ -24,6 +25,10 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
+    path: "/arrow button",
+    component: _abebf1de,
+    name: "arrow button"
+  }, {
     path: "/inspire",
     component: _7f2464a2,
     name: "inspire"
